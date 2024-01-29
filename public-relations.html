@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+    <div class="nav-bar">
+        <!-- top bar container start -->
+        <div class="top-bar blue-gradient">
+            <div class="left-top-bar">
+                <i class="fa-solid fa-phone-flip"></i>
+                <div class="phone-nb-container">
+                    <i>+961 01 234567</i>
+                </div>
+            </div>
+            <div class="right-top-bar">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+            </div>
+        </div>
+        <!-- top bar container end -->
+
+
+        <!-- nav bar container start -->
+        <div class="nav-bar-container">
+            <div class="nav-logo-container">
+               <a href="./index.html" style="all:unset;"><img src="./assets/logo-notext.png" alt=""></a> 
+            </div>
+            <div class="nav-buttons-container">
+                <p class="home-btn"><a href="./index.html" style="all:unset">Home</a></p>
+                <p class="about-us-btn"><a href="./aboutUs.html" style="all:unset">About Us</a></p>
+                <p class="our-services-btn"><a href="./our-services.html" style="all:unset">Our Services</a></p>
+                <p class="in-the-news-btn"><a href="./InTheNews.html" style="all:unset">In The News</a></p>
+                <p class="contact-us-btn"><a href="./contact-us.html" style="all:unset">Contact Us</a></p>
+            </div>
+            <div class="expert-btn-container blue-gradient">
+                <a href="./contact-us.html" style="all: unset;"><p>Talk To An Expert</p></a>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="services-banner" class="services-banner">
+        <img src="./assets/Public Relations.jpg" alt="" style="padding-top: 120px;">
+    </div>
+
+    <div class="service-text">
+        <p>
+            Harmony in Perception: Public Relations Elevation"
+<br><br>
+Step into the realm of Public Relations, where perceptions are sculpted, narratives are woven, and your brand dances in harmony with the world. Our Public Relations service is not just about managing images; it's a symphony of strategic communication that elevates your brand's resonance in the minds of your audience.
+<br><br>
+
+Crafting Perceptions, Building Bridges:
+<br><br>
+
+Embark on a journey where every press release, every interaction, and every engagement becomes a brushstroke in the canvas of your brand's public image. Our Public Relations service is your brand's guide to fostering positive relationships and nurturing a favorable perception in the public eye.
+<br><br>
+
+Why Choose Our Public Relations Service:
+<br><br>
+
+Strategic Communication: Public Relations is the art of strategic communication. Our team of communication architects crafts narratives that align with your brand's values, creating a positive and lasting impression on your audience.
+<br><br>
+
+Relationship Symphony: Beyond media, Public Relations is about relationships. We orchestrate a symphony of relationships with media, influencers, and the public, ensuring your brand is at the forefront of positive conversations.
+<br><br>
+
+Crisis Management Prowess: In the face of challenges, Public Relations shines. Our service includes expert crisis management, turning challenges into opportunities and maintaining your brand's integrity even in turbulent times.
+<br><br>
+
+Brand Advocacy: Public Relations is not just about addressing the public; it's about creating advocates. Our service transforms your audience into brand advocates, enhancing loyalty and turning customers into your brand's ambassadors.
+<br><br>
+
+The Impact of Our Public Relations Service:
+<br><br>
+
+Perception Elevation: Elevate your brand's perception from good to exceptional. Our Public Relations service ensures that your brand is viewed positively, fostering trust and admiration among your audience.
+<br><br>
+
+Media Resonance: In the world of constant chatter, be the voice that resonates. Our service secures media coverage that amplifies your brand's message, making it a noteworthy presence in the media landscape.
+<br><br>
+
+Community Connection: Public Relations is about connecting with communities. Our service builds bridges between your brand and the communities it serves, creating a sense of belonging and resonance with your target audience.
+<br><br>
+
+Brand Authority Amplification: Beyond visibility lies authority. Our Public Relations service positions your brand as an authority in your industry, ensuring that your voice is not just heard but respected and valued.
+<br><br>
+
+Elevate your brand's public image with our Public Relations service. It's not just about managing perceptions; it's about orchestrating a symphony of positive communication that resonates with your audience and establishes your brand as a trusted and admired presence. Choose Public Relations Elevation and let your brand's harmony echo in the hearts and minds of your audience.
+
+         </p>
+    </div>
+    <div class="contact-wrap">
+        <div class="contact-picture">
+            <img src="./assets/formPic.png" alt="">
+        </div>
+        <div class="form-container">
+            <form action="mail.php" method="post">
+                   <h1>Curiosity piqued? Let's converse!  
+                      </h1>
+                    <div class="flexed-input">
+                        <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                        <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                    </div>
+                    <div class="normal-input">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                        <br>
+                        <input type="number" name="phoneNb" id="phoneNb" placeholder="Phone Number" required>
+                        <br>
+                        <input type="text" name="companyName" id="companyName" placeholder="Comapany Name" required>
+                        <input type="text" value="Public Relations" name="service-type" required hidden> 
+                        <input type="submit" value="SUBMIT" class="submit-btn">
+                    </div>
+                    
+               </form>  
+            </div>
+        </div>
+</body>
+</html>

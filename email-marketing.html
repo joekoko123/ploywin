@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+    <div class="nav-bar">
+        <!-- top bar container start -->
+        <div class="top-bar blue-gradient">
+            <div class="left-top-bar">
+                <i class="fa-solid fa-phone-flip"></i>
+                <div class="phone-nb-container">
+                    <i>+961 01 234567</i>
+                </div>
+            </div>
+            <div class="right-top-bar">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+            </div>
+        </div>
+        <!-- top bar container end -->
+
+
+        <!-- nav bar container start -->
+        <div class="nav-bar-container">
+            <div class="nav-logo-container">
+               <a href="./index.html" style="all:unset;"><img src="./assets/logo-notext.png" alt=""></a> 
+            </div>
+            <div class="nav-buttons-container">
+                <p class="home-btn"><a href="./index.html" style="all:unset">Home</a></p>
+                <p class="about-us-btn"><a href="./aboutUs.html" style="all:unset">About Us</a></p>
+                <p class="our-services-btn"><a href="./our-services.html" style="all:unset">Our Services</a></p>
+                <p class="in-the-news-btn"><a href="./InTheNews.html" style="all:unset">In The News</a></p>
+                <p class="contact-us-btn"><a href="./contact-us.html" style="all:unset">Contact Us</a></p>
+            </div>
+            <div class="expert-btn-container blue-gradient">
+                <a href="./contact-us.html" style="all: unset;"><p>Talk To An Expert</p></a>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="services-banner" class="services-banner">
+        <img src="./assets/Untitled-3email marketing.jpg" alt="">
+    </div>
+
+    <div class="service-text">
+        <p>Unlocking Success, One Inbox at a Time: Our Email Marketing Mastery"
+            <br><br>
+            Embark on a journey where every click, every open, and every conversion is a testament to the power of strategic communication. Introducing our Email Marketing Mastery – a service that goes beyond the inbox, forging meaningful connections and driving unparalleled success for your brand.
+            <br><br>
+            
+            Crafting Email Experiences that Resonate:
+            <br><br>
+            
+            Immerse your audience in a world of tailored experiences with our Email Marketing Mastery. We don't just send emails; we orchestrate a symphony of engaging content, compelling visuals, and strategic calls-to-action that resonate with each recipient.
+            <br><br>
+            
+            Why Choose Our Email Marketing Service:
+            <br><br>
+            
+            Personalization, Perfected: Tailor your messages with precision, ensuring that every subscriber feels like more than just a name on a list. Our personalization strategies create a unique and memorable experience for each recipient.
+            <br><br>
+            
+            Strategic Campaigns: From welcome sequences that make a lasting first impression to targeted campaigns that drive specific actions, our strategic approach ensures that every email serves a purpose in your overarching marketing strategy.
+            <br><br>
+            
+            Conversion-Oriented Copy: Elevate your emails from mere communication to conversion catalysts. Our mastery lies in crafting copy that not only informs but persuades, turning subscribers into loyal customers.
+            <br><br>
+            
+            Data-Driven Insights: Uncover the secrets to success with in-depth analytics and insights. Our Email Marketing service doesn't just send messages into the void; it leverages data to refine strategies, ensuring continuous improvement and optimal performance.
+            <br><br>
+            
+            Responsive Designs: In a world where emails are opened on various devices, our responsive designs guarantee that your message looks stunning, regardless of the screen size. Elevate the user experience and drive engagement with visually appealing emails.
+            <br><br>
+            
+            The Impact of Our Email Marketing Mastery:
+            <br><br>
+            
+            Audience Engagement: Foster meaningful connections with your audience through emails that resonate with their interests, preferences, and behaviors.
+            <br><br>
+            
+            Brand Loyalty: Turn subscribers into brand advocates. Our Email Marketing service builds trust, loyalty, and a sense of community around your brand.
+            <br><br>
+            
+            Conversion Surge: Watch your conversion rates soar as strategic campaigns and compelling content guide subscribers seamlessly through the customer journey.
+            <br><br>
+            
+            Measurable Results: Every email campaign is more than a shot in the dark – it's a carefully measured strategy with clear KPIs, ensuring you see the tangible results of your investment.
+            <br><br>
+            
+            Transform your email communication from routine correspondence to a dynamic force driving your brand's success. Choose Email Marketing Mastery and unlock the potential within every inbox, propelling your brand to new heights of engagement and conversion.
+            </p>
+    </div>
+    <div class="contact-wrap">
+        <div class="contact-picture">
+            <img src="./assets/formPic.png" alt="">
+        </div>
+        <div class="form-container">
+            <form action="mail.php" method="post">
+                   <h1>Curiosity piqued? Let's converse!  
+                      </h1>
+                    <div class="flexed-input">
+                        <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                        <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                    </div>
+                    <div class="normal-input">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                        <br>
+                        <input type="number" name="phoneNb" id="phoneNb" placeholder="Phone Number" required>
+                        <br>
+                        <input type="text" name="companyName" id="companyName" placeholder="Comapany Name" required>
+                        <input type="text" value="Email Marketing" name="serviceType" required hidden> 
+                        <input type="submit" value="SUBMIT" class="submit-btn">
+                    </div>
+                    
+               </form>  
+            </div>
+        </div>
+</body>
+</html>

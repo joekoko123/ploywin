@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <!-- top bar container start -->
+      <div class="top-bar blue-gradient">
+        <div class="left-top-bar">
+          <i class="fa-solid fa-phone-flip"></i>
+          <div class="phone-nb-container">
+            <i>+961 01 234567</i>
+          </div>
+        </div>
+        <div class="right-top-bar">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+      <!-- top bar container end -->
+
+      <!-- nav bar container start -->
+      <div class="nav-bar-container">
+        <div class="nav-logo-container">
+          <img src="./assets/logo-notext.png" alt="" />
+        </div>
+        <div class="nav-buttons-container">
+          <p class="home-btn">Home</p>
+          <p class="about-us-btn">About Us</p>
+          <p class="our-services-btn">Our Services</p>
+          <p class="in-the-news-btn">In The News</p>
+          <p class="contact-us-btn">Contact Us</p>
+        </div>
+        <div class="expert-btn-container blue-gradient">
+          <a href="./contact-us.html" style="all: unset;"><p>Talk To An Expert</p></a>
+      </div>
+      </div>
+    </div>
+
+    <div id="services-banner" class="services-banner">
+      <img src="./assets/Production Photography & Video Shooting.jpg" alt="" />
+
+    </div>
+
+    <div class="service-text">
+      <p>
+        Visual Alchemy: Production Perfection in Photography & Video Shooting"
+<br> <br>
+Step into a realm where every frame tells a story, and every image captures the essence of your brand's narrative. Our Production: Photography & Video Shooting service is not just about visuals; it's about crafting a visual symphony that resonates with your audience, leaving an indelible mark.
+<br> <br>
+
+Crafting Visual Masterpieces:
+<br> <br>
+
+Immerse your brand in a world of visual alchemy. Our Production service transforms concepts into captivating visuals, blending the artistry of photography with the dynamic storytelling of video shooting.
+<br> <br>
+
+Why Choose Our Production Service:
+<br> <br>
+
+Creative Ingenuity: Every project is a canvas for creative expression. Our team of seasoned photographers and videographers infuses each frame with artistic brilliance, ensuring your brand's visual identity stands out.
+<br> <br>
+
+Strategic Storytelling: Visuals that tell a story are memorable. We go beyond the lens to understand your brand's narrative, strategically weaving it into every photograph and frame, creating a cohesive and compelling visual journey.
+<br> <br>
+
+Versatility at its Best: Whether it's a product shoot that highlights intricate details or a corporate video that communicates your brand ethos, our Production service is versatile, catering to the diverse visual needs of your brand.
+<br> <br>
+
+Cutting-Edge Equipment: Elevate your visuals with the latest in photography and video shooting technology. Our commitment to excellence extends to using cutting-edge equipment that ensures every detail is captured in stunning clarity.
+<br> <br>
+
+The Impact of Our Production Service:
+<br> <br>
+
+Visual Identity Reinforcement: Your brand is more than a logo; it's a visual story. Our Production service reinforces and elevates your visual identity, ensuring it aligns seamlessly with your brand messaging.
+<br> <br>
+
+Engagement Magnet: Visual content is a magnet for engagement. From social media campaigns to website visuals, our service ensures your brand captivates and holds the attention of your audience.
+<br> <br>
+
+Memorable Impressions: In a world inundated with visuals, ours leave a lasting impression. We aim for visuals that not only catch the eye but linger in the memory, forging a connection between your brand and your audience.
+<br> <br>
+
+Brand Consistency: Consistency is key to brand success. Our Production service ensures that every visual element adheres to your brand guidelines, creating a cohesive and recognizable visual language.
+<br> <br>
+
+Transform your brand's visual presence from ordinary to extraordinary with our Production: Photography & Video Shooting service. It's not just about capturing moments; it's about crafting visual masterpieces that resonate with your audience on a profound level. Choose Production Excellence and watch your brand's story unfold through the lens of creativity and impact.
+
+      </p>
+    </div>
+    <div class="contact-wrap">
+      <div class="contact-picture">
+        <img src="./assets/formPic.png" alt="" />
+      </div>
+      <div class="form-container">
+        <form action="mail.php" method="post">
+          <h1>Curiosity piqued? Let's converse!</h1>
+          <div class="flexed-input">
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="Last Name"
+              required
+            />
+          </div>
+          <div class="normal-input">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <br />
+            <input
+              type="number"
+              name="phoneNb"
+              id="phoneNb"
+              placeholder="Phone Number"
+              required
+            />
+            <br />
+            <input
+              type="text"
+              name="companyName"
+              id="companyName"
+              placeholder="Comapany Name"
+              required
+            />
+            <input
+              type="text"
+              value="Photography & Video Shooting"
+              name="serviceType"
+              required
+              hidden
+            />
+            <input type="submit" value="SUBMIT" class="submit-btn" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

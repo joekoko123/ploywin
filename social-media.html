@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+    <div class="nav-bar">
+        <!-- top bar container start -->
+        <div class="top-bar blue-gradient">
+            <div class="left-top-bar">
+                <i class="fa-solid fa-phone-flip"></i>
+                <div class="phone-nb-container">
+                    <i>+961 01 234567</i>
+                </div>
+            </div>
+            <div class="right-top-bar">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+            </div>
+        </div>
+        <!-- top bar container end -->
+
+
+        <!-- nav bar container start -->
+        <div class="nav-bar-container">
+            <div class="nav-logo-container">
+               <a href="./index.html" style="all:unset;"><img src="./assets/logo-notext.png" alt=""></a> 
+            </div>
+            <div class="nav-buttons-container">
+                <p class="home-btn"><a href="./index.html" style="all:unset">Home</a></p>
+                <p class="about-us-btn"><a href="./aboutUs.html" style="all:unset">About Us</a></p>
+                <p class="our-services-btn"><a href="./our-services.html" style="all:unset">Our Services</a></p>
+                <p class="in-the-news-btn"><a href="./InTheNews.html" style="all:unset">In The News</a></p>
+                <p class="contact-us-btn"><a href="./contact-us.html" style="all:unset">Contact Us</a></p>
+            </div>
+            <div class="expert-btn-container blue-gradient">
+                <a href="./contact-us.html" style="all: unset;"><p>Talk To An Expert</p></a>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="services-banner" class="services-banner">
+        <img src="./assets/Social Media.jpg" alt="" style="padding-top: 130px;">
+    </div>
+
+    <div class="service-text">
+        <p>
+            Social Media Elevation: Crafting Your Brand's Digital Epic"
+<br><br>
+Enter the realm of Social Media, where your brand's story unfolds in a captivating narrative that resonates across platforms. Our Social Media service is not just about presence; it's a strategic curation of content and engagement that elevates your brand to digital stardom.
+<br><br>
+
+Navigating the Digital Landscape:
+<br><br>
+
+Embark on a journey where every post, every interaction, and every visual element contributes to a compelling digital narrative. Our Social Media service is your brand's passport to an immersive online experience.
+<br><br>
+
+Why Choose Our Social Media Service:
+<br><br>
+
+Content Symphony: Crafting compelling content is an art. Our Social Media experts curate a symphony of visuals, captions, and hashtags that not only capture attention but tell a story that resonates with your audience.
+<br><br>
+
+Platform Prowess: Each social platform is a stage. We understand the nuances of each, tailoring your brand's presence to suit the unique characteristics of platforms like Instagram, Facebook, Twitter, and more.
+<br><br>
+
+Audience Engagement: Social media is a conversation. We orchestrate engagement strategies that go beyond likes and shares, fostering meaningful interactions that build a community around your brand.
+<br><br>
+
+Strategic Consistency: Consistency is the heartbeat of social success. Our approach ensures that your brand's messaging and visual identity remain cohesive across all social channels, creating a recognizable and trustworthy presence.
+<br><br>
+
+The Impact of Our Social Media Service:
+<br><br>
+
+Digital Resonance: Amplify your brand's voice in the digital symphony. Our Social Media service ensures your brand is not just present but resonates across platforms, creating a harmonious connection with your audience.
+<br><br>
+
+Community Crescendo: Build a tribe around your brand. Our strategies foster a sense of community, turning followers into brand advocates who actively engage with and promote your products or services.
+<br><br>
+
+Visual Brilliance: Social media is a visual playground. Our service ensures your brand stands out with visually stunning content that not only captures attention in the scroll but leaves a lasting impression.
+<br><br>
+
+Conversion Harmony: Beyond engagement lies conversion. Our Social Media service is designed to seamlessly guide your audience from awareness to action, turning social interactions into tangible business results.
+<br><br>
+
+Elevate your brand's digital presence with our Social Media service. It's not just about posting; it's about crafting a digital epic that resonates with your audience and sets your brand apart in the vast landscape of social media. Choose Social Media Excellence and let your brand shine in the digital spotlight.
+
+         </p>
+    </div>
+    <div class="contact-wrap">
+        <div class="contact-picture">
+            <img src="./assets/formPic.png" alt="">
+        </div>
+        <div class="form-container">
+            <form action="mail.php" method="post">
+                   <h1>Curiosity piqued? Let's converse!  
+                      </h1>
+                    <div class="flexed-input">
+                        <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                        <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                    </div>
+                    <div class="normal-input">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                        <br>
+                        <input type="number" name="phoneNb" id="phoneNb" placeholder="Phone Number" required>
+                        <br>
+                        <input type="text" name="companyName" id="companyName" placeholder="Comapany Name" required>
+                        <input type="text" value="Social Media" name="service-type" required hidden> 
+                        <input type="submit" value="SUBMIT" class="submit-btn">
+                    </div>
+                    
+               </form>  
+            </div>
+        </div>
+</body>
+</html>

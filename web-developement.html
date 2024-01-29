@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+    <div class="nav-bar">
+        <!-- top bar container start -->
+        <div class="top-bar blue-gradient">
+            <div class="left-top-bar">
+                <i class="fa-solid fa-phone-flip"></i>
+                <div class="phone-nb-container">
+                    <i>+961 01 234567</i>
+                </div>
+            </div>
+            <div class="right-top-bar">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+            </div>
+        </div>
+        <!-- top bar container end -->
+
+
+        <!-- nav bar container start -->
+        <div class="nav-bar-container">
+            <div class="nav-logo-container">
+               <a href="./index.html" style="all:unset;"><img src="./assets/logo-notext.png" alt=""></a> 
+            </div>
+            <div class="nav-buttons-container">
+                <p class="home-btn"><a href="./index.html" style="all:unset">Home</a></p>
+                <p class="about-us-btn"><a href="./aboutUs.html" style="all:unset">About Us</a></p>
+                <p class="our-services-btn"><a href="./our-services.html" style="all:unset">Our Services</a></p>
+                <p class="in-the-news-btn"><a href="./InTheNews.html" style="all:unset">In The News</a></p>
+                <p class="contact-us-btn"><a href="./contact-us.html" style="all:unset">Contact Us</a></p>
+            </div>
+            <div class="expert-btn-container blue-gradient">
+                <a href="./contact-us.html" style="all: unset;"><p>Talk To An Expert</p></a>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="services-banner" class="services-banner">
+        <img src="./assets/Website Development.jpg" alt="">
+    </div>
+
+    <div class="service-text">
+        <p>
+            Digital Masterpiece: Crafting Your Unique Online Realm"
+<br><br>
+            Welcome to the world of Website Development, where your brand's digital presence transforms into a captivating online masterpiece. Our Website Development service is not just about code; it's a symphony of design, functionality, and innovation that brings your brand's story to life in the digital landscape.
+<br><br>
+            
+            Navigating the Digital Canvas:
+<br><br>
+            
+            Embark on a journey where every click, scroll, and interaction paints a picture of your brand's identity. Our Website Development service is your brand's portal to a seamless, immersive, and memorable online experience.
+<br><br>
+            
+            Why Choose Our Website Development Service:
+<br><br>
+            
+            Design Elegance: Your website is your brand's digital storefront. Our team of designers crafts visually stunning interfaces that not only captivate visitors but also reflect the essence of your brand.
+<br><br>
+            
+            Functional Harmony: Beauty meets functionality. We go beyond aesthetics, ensuring your website is a smooth, user-friendly experience that seamlessly guides visitors from landing to conversion.
+<br><br>
+            
+            Innovation Symphony: Every brand is unique, and so should be its online presence. Our Website Development service embraces innovation, offering custom solutions that set your brand apart in the digital realm.
+<br><br>
+            
+            Responsive Brilliance: In the era of multi-device usage, your website should adapt effortlessly. Our responsive designs ensure that your brand's story is told cohesively across desktops, tablets, and mobile devices.
+<br><br>
+            
+            The Impact of Our Website Development Service:
+<br><br>
+            
+            Digital Showcase: Elevate your brand with a visually striking digital showcase. Our Website Development service ensures that your online presence is not just functional but an artistic representation of your brand's values and offerings.
+<br><br>
+            
+            User Engagement Crescendo: A captivating website is an engaged audience. Our development strategies foster user interaction, turning visitors into active participants who explore, engage, and convert.
+<br><br>
+            
+            Brand Authority: Your website is your online headquarters. Our service builds a digital fortress that establishes your brand as an authority in your industry, instilling trust and credibility among visitors.
+<br><br>
+            
+            Conversion Symphony: Beyond aesthetics lies conversion. Our Website Development service is geared towards transforming website visitors into customers, orchestrating a seamless journey from exploration to action.
+<br><br>
+            
+            Elevate your brand's online presence with our Website Development service. It's not just about coding; it's about creating a digital masterpiece that tells your brand's story and provides visitors with an unforgettable online experience. Choose Website Development Excellence and let your brand's online realm leave a lasting impression.
+            
+         </p>
+    </div>
+    <div class="contact-wrap">
+        <div class="contact-picture">
+            <img src="./assets/formPic.png" alt="">
+        </div>
+        <div class="form-container">
+            <form action="mail.php" method="post">
+                   <h1>Curiosity piqued? Let's converse!  
+                      </h1>
+                    <div class="flexed-input">
+                        <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                        <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                    </div>
+                    <div class="normal-input">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                        <br>
+                        <input type="number" name="phoneNb" id="phoneNb" placeholder="Phone Number" required>
+                        <br>
+                        <input type="text" name="companyName" id="companyName" placeholder="Comapany Name" required>
+                        <input type="text" value="Web Development" name="service-type" required hidden> 
+                        <input type="submit" value="SUBMIT" class="submit-btn">
+                    </div>
+                    
+               </form>  
+            </div>
+        </div>
+</body>
+</html>

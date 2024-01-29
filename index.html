@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pulse - Home</title>
     <link rel="stylesheet" href="./style.css">
-    <script src=".app.js" defer></script>
+    <script src=".app.js"></script>
 
     <script src="https://kit.fontawesome.com/e7ebd8c311.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,17 +41,17 @@
         <!-- nav bar container start -->
         <div class="nav-bar-container">
             <div class="nav-logo-container">
-                <img src="./assets/logo-notext.png" alt="">
+               <a href="./index.html" style="all:unset;"><img src="./assets/logo-notext.png" alt=""></a> 
             </div>
             <div class="nav-buttons-container">
                 <p class="home-btn"><a href="./index.html" style="all:unset">Home</a></p>
                 <p class="about-us-btn"><a href="./aboutUs.html" style="all:unset">About Us</a></p>
-                <p class="our-services-btn">Our Services</p>
+                <p class="our-services-btn"><a href="./our-services.html" style="all:unset">Our Services</a></p>
                 <p class="in-the-news-btn"><a href="./InTheNews.html" style="all:unset">In The News</a></p>
-                <p class="contact-us-btn">Contact Us</p>
+                <p class="contact-us-btn"><a href="./contact-us.html" style="all:unset">Contact Us</a></p>
             </div>
             <div class="expert-btn-container blue-gradient">
-                <p>Talk To An Expert</p>
+                <a href="./contact-us.html" style="all: unset;"><p>Talk To An Expert</p></a>
             </div>
         </div>
         <!-- nav bar container end -->
@@ -172,7 +172,9 @@
                         <br>
                         <input type="number" name="phoneNb" id="phoneNb" placeholder="Phone Number">
                         <br>
-                        <input type="text" name="companyName" id="companyName" placeholder="Comapany Name"> 
+                        <input type="text" name="companyName" id="companyName" placeholder="Comapany Name">
+                        <input type="text" value="N/A" name="service-type" required hidden> 
+
                         <input type="submit" value="SUBMIT" class="submit-btn">
                     </div>
                     

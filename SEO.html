@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+    <div class="nav-bar">
+        <!-- top bar container start -->
+        <div class="top-bar blue-gradient">
+            <div class="left-top-bar">
+                <i class="fa-solid fa-phone-flip"></i>
+                <div class="phone-nb-container">
+                    <i>+961 01 234567</i>
+                </div>
+            </div>
+            <div class="right-top-bar">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+            </div>
+        </div>
+        <!-- top bar container end -->
+
+
+        <!-- nav bar container start -->
+        <div class="nav-bar-container">
+            <div class="nav-logo-container">
+               <a href="./index.html" style="all:unset;"><img src="./assets/logo-notext.png" alt=""></a> 
+            </div>
+            <div class="nav-buttons-container">
+                <p class="home-btn"><a href="./index.html" style="all:unset">Home</a></p>
+                <p class="about-us-btn"><a href="./aboutUs.html" style="all:unset">About Us</a></p>
+                <p class="our-services-btn"><a href="./our-services.html" style="all:unset">Our Services</a></p>
+                <p class="in-the-news-btn"><a href="./InTheNews.html" style="all:unset">In The News</a></p>
+                <p class="contact-us-btn"><a href="./contact-us.html" style="all:unset">Contact Us</a></p>
+            </div>
+            <div class="expert-btn-container blue-gradient">
+                <a href="./contact-us.html" style="all: unset;"><p>Talk To An Expert</p></a>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="services-banner" class="services-banner">
+        <img src="./assets/seo.jpg" alt="">
+    </div>
+
+    <div class="service-text">
+        <p>
+            Search Engine Symphony: Elevating Your Brand's Online Overture"
+<br><br>
+Welcome to the stage where your brand's digital presence takes center spotlight. Our Search Engine Optimization (SEO) service is not just about ranking higher; it's a symphony of strategic maneuvers that ensures your brand's online performance is a harmonious success.
+<br><br>
+
+Navigating the Digital Sonata:
+<br><br>
+
+Embark on a journey where every click, every keyword, and every page optimization contributes to a melodious digital overture. Our SEO service is your brand's ticket to a captivating online performance.
+<br><br>
+
+Why Choose Our SEO Service:
+<br><br>
+
+Strategic Keyword Composition: Crafting a symphony starts with the right notes. Our SEO experts meticulously select and compose keywords that resonate with your audience, ensuring your brand is discovered for what it truly represents.
+<br><br>
+
+Content Orchestration: Content is the melody that lingers. We orchestrate content that not only aligns with search algorithms but captivates your audience. From blog posts to website content, every piece contributes to the resonance of your brand.
+<br><br>
+
+Technical Harmony: A well-optimized website is the backbone of SEO success. Our technical experts fine-tune the backend, ensuring your website performs seamlessly and provides an immersive user experience.
+<br><br>
+
+Data-Driven Crescendo: Success in the digital arena requires constant adaptation. Our approach involves continuous monitoring and analysis, allowing us to fine-tune our SEO strategy based on real-time data and evolving search trends.
+<br><br>
+
+The Impact of Our SEO Service:
+<br><br>
+
+Visibility Overture: Rise above the digital noise with enhanced online visibility. Our SEO service ensures your brand is prominently featured on search engine results pages, capturing the attention of your target audience.
+<br><br>
+
+Audience Harmony: Reach the right audience at the right time. Our strategic approach ensures your brand is discovered by those actively seeking the products or services you offer, creating a harmonious connection with potential customers.
+<br><br>
+
+Credibility Crescendo: High rankings instill trust. Our SEO service positions your brand as an authority in your industry, building credibility and establishing your digital presence as a reliable source.
+<br><br>
+
+Conversion Symphony: SEO success goes beyond clicks. Our service is geared towards transforming website visitors into customers, orchestrating a seamless journey from discovery to conversion.
+<br><br>
+
+Elevate your brand's online performance with our Search Engine Optimization (SEO) service. It's not just about ranking higher; it's about creating a digital symphony that resonates with your audience, leaving a lasting impact. Choose SEO Excellence and let your brand's online overture be heard and celebrated in the digital arena.
+
+         </p>
+    </div>
+    <div class="contact-wrap">
+        <div class="contact-picture">
+            <img src="./assets/formPic.png" alt="">
+        </div>
+        <div class="form-container">
+            <form action="mail.php" method="post">
+                   <h1>Curiosity piqued? Let's converse!  
+                      </h1>
+                    <div class="flexed-input">
+                        <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                        <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                    </div>
+                    <div class="normal-input">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                        <br>
+                        <input type="number" name="phoneNb" id="phoneNb" placeholder="Phone Number" required>
+                        <br>
+                        <input type="text" name="companyName" id="companyName" placeholder="Comapany Name" required>
+                        <input type="text" value="SEO Optimization" name="service-type" required hidden> 
+                        <input type="submit" value="SUBMIT" class="submit-btn">
+                    </div>
+                    
+               </form>  
+            </div>
+        </div>
+</body>
+</html>
