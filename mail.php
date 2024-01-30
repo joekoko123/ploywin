@@ -12,14 +12,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
     $mail->isSMTP();
-    $mail->Host = 'smtp.gmail.com';
+    $mail->Host = 'smtpout.secureserver.net';
     $mail->SMTPAuth = true;
-    $mail->Username = 'maroun233245@gmail.com';
-    $mail->Password = 'kheqpudxbrnxadlc';
+    $mail->Username = 'info@ploywin.com';
+    $mail->Password = 'Fouad.Adam.agency.011099';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->Port = 587;
+    $mail->Port = 465;
     $to = 'wirdigt@gmail.com';
-    $mail->setFrom('maroun233245@gmail.com', 'Ploywin');
+    $mail->setFrom('info@ploywin.com', 'Ploywin');
     $mail->addAddress($to);
     $mail->isHTML(true);
     $mail->Subject = 'New Inquiry';

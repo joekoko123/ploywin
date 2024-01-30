@@ -140,7 +140,19 @@
   left: 0;
   transition: width 0.3s ease-in-out;
 }
-
+.active {
+  color: black;
+}
+.nav-buttons-container .active::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
 .nav-buttons-container p:hover::after {
   width: 100%;
 }
@@ -593,6 +605,7 @@ position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 .item-hints .hint::before {
 /* //rotated squre */
@@ -608,6 +621,7 @@ top: 50%;
 left: 50%;
 -webkit-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
+
 }
 
 .item-hints .hint::after {
@@ -706,6 +720,7 @@ margin-top: 12px;
 }
 .item-hints .hint-radius {
 background-color: rgba(255, 255, 255, 0.1);
+
 border-radius: 50%;
 width: 250px;
 height: 250px;
@@ -734,6 +749,7 @@ opacity: 1;
 visibility: visible;
 -webkit-transform: scale(1);
 transform: scale(1);
+
 }
 .item-hints .hint[data-position="1"] .hint-content {
 top: 85px;
@@ -754,6 +770,8 @@ pointer-events: none;
 color: #fff;
 visibility: hidden;
 pointer-events: none;
+background-color: black;
+
 }
 .item-hints .hint:hover .hint-content {
 color: #fff;
@@ -1072,13 +1090,13 @@ margin-bottom: 0px;
 }
 
 .contact-us{  
-height: 650px;
 width: auto;
 }
 
 .contact-us img{
 width: 100%;
 height: 100%;
+padding :0;
 }
 
 .contact-us-title{
@@ -1498,6 +1516,7 @@ height: auto;
 }
 .glass-shine-effect-news:hover {
   transform: scale(1.05);
+  z-index: 500;
 }
 .glass-shine-effect-news:hover:before {
 
@@ -2181,6 +2200,332 @@ display:block;
   }
 }
 
-body {
-  overflow-x: hidden;
+.banner-2-mobile-container {
+  display: none;
+}
+
+.video-container {
+  margin:0;
+}
+.banners-mobile {
+  display: none;
+}
+
+.hint-text-mobile {
+  display:none;
+}
+@media  (max-width: 720px) {
+  .banner-2-mobile-container {
+    display: block;
+  }
+  .banners-container {
+    display: none;
+    
+  }
+
+  .banners-mobile {
+    display: grid;
+    grid-template-columns: 40% 40% ;
+    gap:30px;
+    justify-items: center;
+  }
+  .banner-1, .banner-3 {
+    height:200px;
+  }
+  .banners-mobile img {
+    height:100%;
+  }
+  .banner-2-container{
+    display:grid;
+    justify-items: center;
+  }
+  .banner-2 img {
+    height:100%;
+    width: 100%;
+  } 
+  .banner-2 {
+    height:200px;
+    
+  }
+
+  .ceo-pic {
+    width:100%;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    padding:25px 0;
+  }
+
+  .ceo-pic img {
+    width:70%;
+    height: 100%;
+  }
+  .ceo-title {
+    font-size: 32px;
+  }
+
+  .form-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .second-banner-container {
+    display: grid;
+    margin: 0;
+    padding-top: 45px;
+  }
+
+  .banner-1-mobile,
+  .banner-2-mobile,
+  .banner-3-mobile {
+    height:400px;
+  }
+
+  .planet {
+    display: block;
+  }
+
+  .introduction-fouad {
+    display:flex;
+    flex-direction: column-reverse;
+  }
+
+  .fouad-picture-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin:50px 0 !important;
+  }
+  .fouad-picture-container img{
+    width: 45%;
+    height:230px;
+  }
+
+  .fouad-text {
+    width: 100%;
+    margin:0; 
+    padding: 0;
+    padding: 0 10px;
+    padding-left:15px;
+  }
+
+  .left-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding :30px 20px;
+    padding-bottom: 0;
+  }
+
+  .left-pictures img {
+    width:100%;
+    height: 230px;
+  }
+
+  .about-us-planet {
+    margin:0;
+    width:unset
+  }
+  .ceo-pic {
+    padding:0;
+  }
+
+  .fouad-name {
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+  }
+  .ceo-title{ 
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  .right-text-2 {
+    display: none;
+  }
+
+  .hint-text-mobile {
+    display:block;
+    padding:25px 0;
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  .single-hint-container {
+    padding:25px 15px;
+  }
+
+  .hint-title-div {
+    padding: 5px 0;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .wrapper {
+    all: unset;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100% !important;
+  }
+  .faq-title {
+    padding-top: 70px;
+  }
+  .faq-title p{
+    font-size: 34px;
+  }
+
+  .faq {
+    padding:10px 25px;
+    height:auto;
+  }
+
+  .accordion {
+    padding: 0;
+    padding:15px 20px;
+    font-size: 15px;
+    border-radius: 9px;
+
+  }
+
+  .crt-post-c {
+    border-radius: 4px;
+  }
+
+  .crt-feed {
+    gap:25px;
+    display: flex;
+  }
+
+  .wave-three {
+    height:200px
+  }
+
+  .instgram-embed {
+    height: auto;
+  }
+
+  .about-us-form-wrap {
+    margin: 0;
+  }
+
+  .crt-widget {
+    padding:0 !important;
+  }
+  .our-services {
+    display: flex;
+    justify-content: center;
+  }
+  .our-services p {
+    font-size: 34px;
+  }
+
+  .our-services p::after {
+    display: flex;
+    width: 70%;
+    margin: 0;
+    left: 15%;
+  }
+
+  .services-banner {
+    height :450px;
+  }
+
+  
+  .contact-us img {
+    height: 250px;
+  }
+
+  .third-wave-two {
+    width:100%;
+  }
+  .third-wave-two img {
+    width:100%;
+    height:250px;
+  }
+
+  .news-button-container {
+    padding-top:75px;   
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 28% 28% 28%;
+    gap: 25px;
+    width: 100%;
+    gap:0;
+  }
+  .button-container {
+    width: 100%;
+  }
+
+  .news-button-container img {
+    width:100%;
+  }
+
+  .index-planet {
+    margin: 0;
+  }
+
+  .egg {
+    width:100%;
+  }
+  .lion {
+    width: 100%;
+  }
+
+  .egg img, .lion img {
+    width: 70%;
+    height:450px;
+  }
+
+  .services-banner {
+    height:250px !important;
+  }
+  .services-banner img {
+    height:100%;
+  }
+
+  .service-text p {
+  font-size: 16px;
+
+  }
+
+  .banners-mobile {
+    padding-top: 50px;
+  }
+
+  .second-banner-container {
+    margin-top:75px;
+  }
+
+  
+}
+
+.service-text {
+  margin: 0;
+  margin:60px 0;
+  padding:0 15px;
+}
+.news-button-container {
+  padding-top:75px;   
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 30% 30% 30%;
+  gap: 5px;
+  width: 100%;
+
+}
+.button-container {
+  width: 100%;
+  cursor: pointer;
+}
+
+.news-button-container img {
+  width:100%;
+
+}
+
+.second-banner-container {
+  padding: 0;
 }

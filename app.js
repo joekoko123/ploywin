@@ -27,11 +27,11 @@ window.addEventListener("load", function () {
 
     about_us_img.style.marginTop = navBarHeight + "px";
   }
-  if (window.location.pathname.includes("index.html")) {
-    var videoContainer = document.querySelector(".video-container");
+  // if (window.location.pathname.includes("index.html")) {
+  //   var videoContainer = document.querySelector(".video-container");
 
-    videoContainer.style.marginTop = navBarHeight + "px";
-  }
+  //   videoContainer.style.marginTop = navBarHeight + "px";
+  // }
   if (window.location.pathname.includes("InTheNews.html")) {
     var banner = document.querySelector(".banner-section");
 
